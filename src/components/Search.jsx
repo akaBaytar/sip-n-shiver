@@ -29,6 +29,7 @@ const Wrapper = styled.div`
   .form {
     display: grid;
     grid-template-columns: 1fr auto;
+    margin-top: -1rem;
   }
 
   .form-input {
