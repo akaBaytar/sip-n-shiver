@@ -26,12 +26,6 @@ const About = () => {
 };
 
 const Wrapper = styled.div`
-  h3 {
-    color: var(--grey-800);
-    font-size: clamp(1.5rem, 2vw, 2rem);
-    margin-top: 2rem;
-  }
-
   p {
     line-height: 1.5;
     color: var(--grey-500);
