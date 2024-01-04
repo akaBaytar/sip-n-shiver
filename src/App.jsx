@@ -21,7 +21,7 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: '/coctail',
+        path: '/coctail/:id',
         element: <Coctail />,
       },
       {
