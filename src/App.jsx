@@ -4,6 +4,7 @@ import Layout from './layout';
 import { About, Coctail, Landing, Newsletter, Error, SingleError } from './pages';
 
 import { loader as landingLoader } from './pages/Landing';
+import { loader as coctailLoader } from './pages/Coctail';
 
 const router = createBrowserRouter([
   {
@@ -13,8 +14,8 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Landing />,
-        loader: landingLoader,
         errorElement: <SingleError />,
+        loader: landingLoader,
       },
       {
         path: '/about',
@@ -23,6 +24,8 @@ const router = createBrowserRouter([
       {
         path: '/coctail/:id',
         element: <Coctail />,
+        errorElement: <SingleError />,
+        loader: coctailLoader,
       },
       {
         path: '/newsletter',
