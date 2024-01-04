@@ -3,6 +3,8 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Layout from './layout';
 import { About, Coctail, Error, Landing, Newsletter } from './pages';
 
+import { loader as landingLoader } from './pages/Landing';
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -11,6 +13,7 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Landing />,
+        loader: landingLoader,
       },
       {
         path: '/about',
