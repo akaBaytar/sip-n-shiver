@@ -233,6 +233,7 @@ ul {
   border-radius: 50%;
   border-top-color: var(--primary-500);
   animation: spinner 1s linear infinite;
+  margin: 0 auto;
 }
 
 .title {
