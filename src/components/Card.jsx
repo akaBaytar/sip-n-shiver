@@ -46,10 +46,12 @@ const Wrapper = styled.article`
     }
 
     h5 {
+      font-size: 0.9rem;
       color: var(--grey-700);
     }
 
     small {
+      font-size: 0.75rem;
       display: block;
       color: var(--grey-500);
     }
@@ -58,6 +60,10 @@ const Wrapper = styled.article`
     h5,
     small {
       margin-bottom: 0.5rem;
+    }
+
+    a {
+      font-size: 0.75rem;
     }
   }
 `;

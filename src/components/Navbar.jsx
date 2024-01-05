@@ -28,6 +28,7 @@ const Navbar = () => {
 // style
 const Wrapper = styled.nav`
   background-color: var(--white);
+  box-shadow: var(--shadow-2);
 
   .nav-center {
     width: var(--view-width);

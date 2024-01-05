@@ -105,7 +105,6 @@ const Wrapper = styled.div`
   }
 
   .image {
-    max-width: 30rem;
     display: block;
     margin: 0 auto;
     border-radius: var(--borderRadius);
@@ -116,23 +115,23 @@ const Wrapper = styled.div`
   }
 
   .drink p {
-    font-weight: 600;
     line-height: 1.5;
     margin-bottom: 1rem;
-    color: var(--grey-500);
+    color: var(--black);
   }
 
   .drink-data {
     margin-right: 0.5rem;
-    background-color: var(--grey-300);
-    color: var(--grey-900);
-    padding: 0.25rem;
+    background-color: var(--primary-500);
+    color: var(--white);
+    padding: 0.15rem;
     border-radius: var(--borderRadius);
   }
 
   .ingredient {
-    display: inline-block;
+    display: block;
     margin-right: 0.25rem;
+    margin-top: 0.25rem;
   }
 
   @media (min-width: 992px) {

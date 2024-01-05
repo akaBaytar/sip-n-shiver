@@ -28,7 +28,7 @@ const About = () => {
 const Wrapper = styled.div`
   p {
     line-height: 1.5;
-    color: var(--grey-500);
+    color: var(--grey-900);
     margin-top: 1.25rem;
   }
 `;

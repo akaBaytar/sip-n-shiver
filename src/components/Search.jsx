@@ -30,6 +30,7 @@ const Wrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr auto;
     margin-top: -1rem;
+    min-width: 100%;
   }
 
   .form-input {

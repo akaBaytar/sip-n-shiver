@@ -66,7 +66,7 @@ const Newsletter = () => {
           required
         />
       </div>
-      <span style={{ fontSize: '0.7rem', color: 'red' }}>All fields must be filled out.</span>
+      <span style={{ fontSize: '0.7rem' }}>All fields must be filled out.</span>
       <button type='submit' className='button button-block' style={{ marginTop: '0.45rem' }}>
         Submit
       </button>
