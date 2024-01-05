@@ -1,6 +1,9 @@
 ## Sip 'n Shiver
 
-- 
+- Sip n Shiver is an app where you can search for cocktails using the CocktailDB API. 
+- It was built as a multi-page app using React Router DOM.
+- Fetching process can be cached with React Query. 
+- Components were created using styled-components.
 - This project has been a valuable contribution to my learning journey with React.
 
 ### Technologies Used
@@ -8,8 +11,9 @@
 - HTML (JSX)
 - CSS
 - React (Vite)
-- React Query
 - Axios
+- React Query
+- React Router DOM
 - Styled Components
 
 ### Installation
